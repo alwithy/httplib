@@ -1,4 +1,4 @@
-module httplib
+module github.com/alwithy/httplib
 
 go 1.16
 
