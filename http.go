@@ -215,7 +215,7 @@ func request(ctx context.Context, method []byte, url string, params []byte, data
 	}
 
 	if !optStruct.suppressLog {
-		fmt.Printf( "[send-http-request]url=%s,method=%s,params=%s,raw=%v,data=%s,timeout=%v,status_code=%d, response=%s",
+		fmt.Printf( "[send-http-request]url=%s,method=%s,params=%s,raw=%v,data=%s,timeout=%v,status_code=%d, response=%s \n",
 			url, string(method), string(params), rawData, printData, timeout, rsp.StatusCode(), printRspData)
 	}
 
